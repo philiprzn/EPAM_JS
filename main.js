@@ -14,23 +14,36 @@
 // getType(123);
 
 
-function isPrime(number) {
-    if (number >= 1000) console.log('too big');
-    if (number == 1) return false;
 
-    for (var i = 2; i < number; i++){
-        if ((number % i) == 0){
-            return false;
-        }
-    }
+// function isPrime(number) {
+//     if (number >= 1000) return false;
+//     if (number == 1) return false;
+//
+//     for (var i = 2; i < number; i++){
+//         if ((number % i) == 0){
+//             return false;
+//         }
+//     }
+//
+//     return true;
+//
+// var isPrimeNumber = isPrime(11);
+//
+// if (isPrimeNumber == true){
+//     console.log('число простое');
+// } else if (isPrimeNumber == false){
+//     console.log('число не простое');
+// }
 
-    return true;
-}
 
-var isPrimeNumber = isPrime(11);
+var arr=[1, 1, 1, 1];
 
-if (isPrimeNumber == true){
-    console.log('число простое');
-} else if (isPrimeNumber == false){
-    console.log('число не простое');
-}
+var newArr = arr.filter(function (item) {
+   return arr[item] === arr[0];
+});
+
+if (arr.length === newArr.length){
+    console.log(true);
+} else (console.log(false));
+
+// console.log(newArr);
