@@ -36,6 +36,9 @@
 // }
 
 
+
+//////////////////////////////////////////// js_task2_04:
+
 var arr=[1, 1, 1, 1];
 
 var newArr = arr.filter(function (item) {
