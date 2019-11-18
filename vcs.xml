@@ -10,6 +10,10 @@
           <option name="url" value="https://git.epam.com/Filip_Maksyutov/filip_maksyutov_react_internal.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://git.epam.com/Filip_Maksyutov/filip_maksyutov_node_js_gmp_2019.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\Users\User\WebstormProjects" />
